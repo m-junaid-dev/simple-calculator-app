@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="display">
+            <input type="text" class="display-screen" readonly="0" placeholder="0">
+        </div>
+
+        <div class="buttons">
+            <button class="clear color"
+                onclick="displayvalue = '0' , document.querySelector('.display-screen').value = displayvalue;">C</button>
+            <button class="cross color">X</button>
+            <button class="color division">/</button>
+            <button class="btn9 color1">9</button>
+            <button class="btn8 color1">8</button>
+            <button class="btn7 color1">7</button>
+            <button class="color multiply">*</button>
+            <button class="btn6 color1">6</button>
+            <button class="btn5 color1">5</button>
+            <button class="btn4 color1">4</button>
+            <button class="color subtract">-</button>
+            <button class="btn3 color1">3</button>
+            <button class="btn2 color1">2</button>
+            <button class="btn1 color1">1</button>
+            <button class="color addition">+</button>
+            <button class="btn0 color1">0</button>
+            <button class="dot">.</button>
+            <button class="equal color">=</button>
+        </div>
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
